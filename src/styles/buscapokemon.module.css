@@ -1,0 +1,73 @@
+.form {
+    width: 50%;
+    margin-left: 25%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.form input {
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 1vw;
+    margin-right: 10px;
+}
+
+.form input:first-of-type {
+    padding-left: 10px;
+}
+
+.pokedex {
+    margin: 0px 25%;
+    height: 1207px;
+    background-image: url("../../public/assets/pokedex.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.sprite {
+    position: absolute;
+    top: 22%;
+    left: 19%;
+    height: 15%;
+}
+
+.nome {
+    text-align: end;
+    position: absolute;
+    right: 8%;
+    top: 24%;
+    height: 15%;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.tipos{
+    text-align: start;
+    position: absolute;
+    left: 61%;
+    bottom: 29%;
+    height: 15%;
+    color: white;
+    font-size: 2vw;
+    width: 300px;
+}
+
+.tipos label:last-of-type{
+    margin-left: 50px;
+    text-align: end;
+    float: right;
+}
+
+.indice {
+    text-align: end;
+    position: absolute;
+    left: 20%;
+    bottom: 30%;
+    height: 15%;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}

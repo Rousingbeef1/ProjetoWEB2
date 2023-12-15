@@ -1,0 +1,24 @@
+.form {
+    width: 50%;
+    margin-left: 25%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form input {
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 1vw;
+    margin-right: 10px;
+}
+
+.nome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nome label {
+    font-size: 5rem;
+}
